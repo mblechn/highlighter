@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.react-pdf__Page__canvas {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, 5%) !important;
+}
+
+.react-pdf__Page__textContent {
+   position: absolute !important;
+   top: 50% !important;
+   left: 50% !important;
+   transform: translate(-50%, 5%) !important;
+   font-family: Helvetica, sans-serif; 
+  font-size: 11.04px;
+}
+
+.mark  {
+  left: 100px;
+  font-family: Helvetica, sans-serif; 
+  font-size: 11.04px;
+  height: 1em;
+}
